@@ -37,7 +37,7 @@ const Profile = () => {
         <div className="">
           <p className="text-4xl  font-semibold">
             Hello 👋, I&apos;m{" "}
-            <span className="relative  after:content-['']   after:absolute after:w-full after:h-3 after:bg-gradient-to-r after:from-red-500 after:to-violet-500 after:left-0 after:top-[1.8rem] after:z-[-1]">
+            <span className="relative after:content-[''] after:-skew-x-[30deg] after:absolute after:w-full after:h-3 after:bg-gradient-to-r after:from-red-500 after:to-violet-500 after:left-0 after:top-[1.8rem] after:z-[-1]">
               Kenny
             </span>
           </p>
@@ -66,9 +66,7 @@ const Profile = () => {
             both front-end and back-end technologies, I am passionate about
             creating seamless and efficient web applications. I am constantly
             learning and adapting to new technologies to stay ahead in the
-            ever-evolving field of web development. Driven by curiosity and a
-            love for coding, I am committed to delivering high-quality solutions
-            that meet the needs of users and clients alike.
+            ever-evolving field of web development.
           </p>
         </div>
       </div>
