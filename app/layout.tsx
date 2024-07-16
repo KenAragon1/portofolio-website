@@ -15,8 +15,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className="dark">
+      <body className={inter.className + " z-[-1] relative"}>
+        <div className="min-h-screen w-full from bg-dot-gray-500/[0.45] z-[-1]  relative flex items-center justify-center">
+          <main className="w-[35rem] max-w-[90%] mt-[8rem]">{children}</main>
+        </div>
+      </body>
     </html>
   );
 }
