@@ -6,11 +6,11 @@ export default function Home() {
   return (
     <>
       <Profile />
-      <hr className="border-gray-500 my-[4rem]" />
+      <hr />
       <Portofolio />
-      <hr className="border-gray-500 my-[4rem]" />
+      <hr />
       <Skills />
-      <hr className="border-gray-500 my-[4rem]" />
+      <hr />
     </>
   );
 }

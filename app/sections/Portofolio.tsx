@@ -5,9 +5,8 @@ import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 export default function Portofolio() {
   const projects = [
     {
-      title: "Djawa Store",
-      description:
-        "An e-commerce website specializing in selling Laptops and computer's parts.",
+      title: "DJAWA Store",
+
       techStack: (
         <div className="flex items-center gap-2">
           <div className="relative group">
@@ -23,11 +22,11 @@ export default function Portofolio() {
         </div>
       ),
       image: "/djawa-store.jpg",
+      github: "https://github.com/KenAragon1/DJAWA-Store",
     },
     {
       title: "Portofolio Website",
-      description:
-        "a personal website designed to showcase my work, skills, and accomplishments.",
+
       techStack: (
         <div className="flex items-center gap-2">
           <div className="relative group">
@@ -39,6 +38,7 @@ export default function Portofolio() {
         </div>
       ),
       image: "/portofolio.png",
+      github: "https://github.com/KenAragon1/portofolio-website",
     },
   ];
   return (

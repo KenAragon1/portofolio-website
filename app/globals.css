@@ -9,3 +9,7 @@ body {
 .bg-main {
   @apply bg-neutral-900;
 }
+
+hr {
+  @apply border-gray-500 my-[2rem];
+}

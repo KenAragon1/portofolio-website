@@ -36,9 +36,9 @@ const Profile = () => {
         {/* My Name */}
         <div className="">
           <p className="text-4xl  font-semibold">
-            Hey 👋, I&apos;m{" "}
+            Hello 👋, I&apos;m{" "}
             <span className="relative  after:content-['']   after:absolute after:w-full after:h-3 after:bg-gradient-to-r after:from-red-500 after:to-violet-500 after:left-0 after:top-[1.8rem] after:z-[-1]">
-              Kenny Aragon
+              Kenny
             </span>
           </p>
           <p className="text-4xl bg-gradient-to-r from-red-500 to-violet-500 bg-clip-text text-transparent font-semibold">
@@ -60,7 +60,6 @@ const Profile = () => {
           ))}
         </div>
         <div className="">
-          {" "}
           <p className="text-sm text-gray-400">
             I am Kenny, a dedicated student at Batam State Polytechnic,
             specializing in full-stack development. With a strong foundation in
