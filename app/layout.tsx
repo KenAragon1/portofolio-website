@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import GridBackground from "./components/ui/GridBackground";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,6 +22,7 @@ export default function RootLayout({
         <GridBackground>
           <main className="w-[35rem] max-w-[90%] mt-[8rem]">{children}</main>
         </GridBackground>
+        <Analytics />
       </body>
     </html>
   );
